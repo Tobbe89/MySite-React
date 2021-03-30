@@ -22,10 +22,10 @@ function App() {
                 <NavLink to="/aboutme">About Me</NavLink>
               </li>
               <li>
-                <NavLink to="/techexperience">Technic jobbexperience</NavLink>
+                <NavLink to="/techexperience">Technic Experience</NavLink>
               </li>
               <li>
-                <NavLink to="/overallexperience">Overall  jobbexperience</NavLink>
+                <NavLink to="/overallexperience">Overall Experience</NavLink>
               </li>
               <li>
                 <NavLink to="/Education">Education</NavLink>
