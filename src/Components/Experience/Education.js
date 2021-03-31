@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 
 function Education() {
     return (
-        <div className="content">
+        <div>
             
             <h2>Fullstackutvecklare .NET</h2>
             <p>Programutvecklare, webbutvecklare, systemutvecklare och applikationsutvecklare</p>
