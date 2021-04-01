@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 
 function AboutMe() {
     return (
-        <div>
+        <div className="main-content">
             <p>Me!</p>
         </div>
     )

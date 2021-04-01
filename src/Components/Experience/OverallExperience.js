@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 
 function OverallExperience() {
     return (
-        <div>
+        <div className="main-content">
             <h2>Ericsson</h2>
             <p>Slutmontör/Testoperatör</p>
 

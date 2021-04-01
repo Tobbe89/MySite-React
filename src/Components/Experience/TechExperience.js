@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 
 function TechExperience() {
     return (
-        <div>
+        <div className="main-content">
             <p> 
             <h1>Arbetserfarenhet</h1>
                 <h2 className="contentText">Blue Social</h2>

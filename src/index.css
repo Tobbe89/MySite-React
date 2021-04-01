@@ -1,5 +1,7 @@
 body{
   margin: 0px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(0,212,255,0.4458158263305322) 100%);
 }
 
 .main{
@@ -14,7 +16,10 @@ header{
   text-align: center;
   
 }
-
+.main-content{
+  border-right: 2px solid black;
+  border-top: 2px solid black
+}
 
 .Navbar{
   grid-column: 2/3;
@@ -152,4 +157,9 @@ p{
         h1{
            padding-top: 0px;
           }
+
+          .main-content{
+            border-right: none;
+            border-top: none;
+        }
 }
