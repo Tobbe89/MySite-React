@@ -17,18 +17,18 @@ function App() {
             <ul>
               
               
-              <label><li><NavLink exact to="/">Home</NavLink></li></label>
+              <label><li><NavLink exact to="/">Hem</NavLink></li></label>
               <li>
-                <NavLink to="/aboutme">About Me</NavLink>
+                <NavLink to="/aboutme">Om mig</NavLink>
               </li>
               <li>
-                <NavLink to="/techexperience">Technic Experience</NavLink>
+                <NavLink to="/techexperience">Teknisk erfarenhet</NavLink>
               </li>
               <li>
-                <NavLink to="/overallexperience">Overall Experience</NavLink>
+              <NavLink to="/overallexperience">Annan erfarenhet</NavLink>
               </li>
               <li>
-                <NavLink to="/Education">Education</NavLink>
+                <NavLink to="/Education">Utbildning</NavLink>
               </li>
             </ul>
           
