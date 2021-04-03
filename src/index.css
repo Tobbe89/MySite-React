@@ -105,6 +105,27 @@ p{
   border-radius: 5%;
 }
 
+.myFooter{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  
+  text-align: center;
+  
+}
+.kontaktInfo h3{
+  margin-top: 30px;
+}
+
+.kontaktInfo p{
+  margin: 0px;
+}
+
+
+
 @media screen and (max-width: 500px) {
     .main{
         display: grid;
@@ -161,5 +182,10 @@ p{
           .main-content{
             border-right: none;
             border-top: none;
+        }
+        .myFooter{
+          grid-column: 1/2;
+          grid-row: 4/5;
+          display: flex;
         }
 }

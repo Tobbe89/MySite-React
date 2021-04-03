@@ -5,12 +5,13 @@ import Home from "./Components/Home/Home";
 import OverallExperience from "./Components/Experience/OverallExperience";
 import TechExperience from "./Components/Experience/TechExperience";
 import Education from "./Components/Experience/Education";
+import Footer from "./Components/Home/Footer";
 
 function App() {
   return (
     <div className="main">
       <header><h1>Tobias Persson</h1></header>
-
+      
       <Router>
         <div className="Navbar">
           
@@ -31,7 +32,7 @@ function App() {
                 <NavLink to="/Education">Utbildning</NavLink>
               </li>
             </ul>
-          
+            
         </div>
         
         <Switch>
@@ -57,6 +58,7 @@ function App() {
         </Switch>
 
       </Router>
+     
     </div>
   );
 }

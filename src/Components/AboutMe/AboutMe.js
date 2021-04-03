@@ -24,6 +24,14 @@ function AboutMe() {
 
             <p>Långa utlandsresor, känner mig väldigt
             bekväm att resa runt om i världen.</p>
+            <div className="kontaktInfo">
+                <h3>KontaktInfo</h3>
+                <p>Mobil: 0708952141</p>
+                <p>Mail: Tobiasp89tp@gmail.com</p>
+                <p>Adress:</p>
+                <p>Stationsgatan 2</p>
+                <p>69235, Kumla</p>
+            </div>
         </div>
     )
 }
