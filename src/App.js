@@ -18,7 +18,7 @@ function App() {
             <ul>
               
               
-              <label><li><NavLink exact to="/">Hem</NavLink></li></label>
+              <li><NavLink exact to="/">Hem</NavLink></li>
               <li>
                 <NavLink to="/aboutme">Om mig</NavLink>
               </li>
@@ -26,7 +26,7 @@ function App() {
                 <NavLink to="/techexperience">Teknisk erfarenhet</NavLink>
               </li>
               <li>
-              <NavLink to="/overallexperience">Annan erfarenhet</NavLink>
+              <NavLink to="/overallexperience">All erfarenhet</NavLink>
               </li>
               <li>
                 <NavLink to="/Education">Utbildning</NavLink>
