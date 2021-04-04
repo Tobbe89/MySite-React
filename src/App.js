@@ -18,18 +18,18 @@ function App() {
             <ul>
               
               
-              <li><NavLink exact to="/">Hem</NavLink></li>
+            <li><NavLink exact to="/MySite-React/">Hem</NavLink></li>
               <li>
-                <NavLink to="/aboutme">Om mig</NavLink>
+              <NavLink to="/MySite-React/aboutme">Om mig</NavLink>
               </li>
               <li>
-                <NavLink to="/techexperience">Teknisk erfarenhet</NavLink>
+              <NavLink to="/MySite-React/techexperience">Teknisk erfarenhet</NavLink>
               </li>
               <li>
-              <NavLink to="/overallexperience">All erfarenhet</NavLink>
+              <NavLink to="/MySite-React/overallexperience">All erfarenhet</NavLink>
               </li>
               <li>
-                <NavLink to="/Education">Utbildning</NavLink>
+              <NavLink to="/MySite-React/Education">Utbildning</NavLink>
               </li>
             </ul>
             
@@ -37,19 +37,19 @@ function App() {
         
         <Switch>
           <div className="Content">
-            <Route exact path="/">
+            <Route exact path="/MySite-React/">
               <Home></Home>
             </Route>
-            <Route path="/aboutme">
+            <Route path="/MySite-React/aboutme">
               <AboutMe></AboutMe>
             </Route>
-            <Route path="/techexperience">
+            <Route path="/MySite-React/techexperience">
               <TechExperience></TechExperience>
             </Route>
-            <Route path="/overallexperience">
+            <Route path="/MySite-React/overallexperience">
               <OverallExperience></OverallExperience>
             </Route>
-            <Route path="/Education">
+            <Route path="/MySite-React/Education">
               <Education></Education>
             </Route>
             
