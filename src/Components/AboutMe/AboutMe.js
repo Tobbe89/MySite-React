@@ -7,7 +7,7 @@ function AboutMe() {
             <h2>About me!</h2>
 
             <p> I am a responsible and determined
-                person who is easy to work with </p>
+                person who is easy to work with. </p>
            
 
             <h3>Språk</h3>
