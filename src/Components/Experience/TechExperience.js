@@ -5,7 +5,7 @@ function TechExperience() {
     return (
         <div className="main-content">
             <p> 
-            <h1>Arbetserfarenhet</h1>
+            
                 <h2 className="contentText">Blue Social</h2>
             Under en liten tid jobbade jag med Blue Social i Riverside, Kalifornien där jag programmerade deras NFC-kort.
                 <h2 className="contentText">CAB Group</h2>

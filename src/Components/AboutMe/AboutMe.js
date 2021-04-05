@@ -16,14 +16,15 @@ function AboutMe() {
             </p>
 
             
-            <h3>Övrigt</h3>
-            <p>Körkort:	B
-            Truckkort:	A1-4, B1-5</p>
+           
+            
 
             <h3>Övriga meriter </h3>
 
             <p>Långa utlandsresor, känner mig väldigt
             bekväm att resa runt om i världen.</p>
+            <p>Körkort:	B
+            Truckkort:	A1-4, B1-5</p>
             <div className="kontaktInfo">
                 <h3>KontaktInfo</h3>
                 <p>Mobil: 0708952141</p>
