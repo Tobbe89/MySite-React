@@ -10,9 +10,9 @@ function AboutMe() {
                 person who is easy to work with. </p>
            
 
-            <h3>Språk</h3>
+            <h3>Language</h3>
             <p>Swedish and English, fluently.</p>
-            <p>And a little bit Spanish, more understanding than speaking.</p>
+            
 
             
         
