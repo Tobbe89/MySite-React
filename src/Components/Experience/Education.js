@@ -6,7 +6,10 @@ function Education() {
         <div className="main-content">
             
             <h2>Fullstack Developer .NET</h2>
-            <p>Software- , Web- , System-  and Applikation-Developer</p>
+            <h3>Software- , Web- , System-  and Application-Developer</h3>
+            <p>Visual Studio: ASP.NET, MVC, WPF, Unit Test</p>
+            <p>Visual Studio Code: JS, HTML, CSS, JSx, React</p>
+            <p>SQL, Postman</p>
 
             <h2>Microcomputer technology, Göteborgs Tekniska Institut.</h2>     
             <h3>Programmering:</h3> <p>C, C++ och Assembly Programming</p>
@@ -18,7 +21,7 @@ function Education() {
             <p>Designing PCB with help of CAD Software</p>
             <h2>It-Media , John Bauer - High School.</h2>
             <p>
-                Education that contained Media with different forms like: News, Filming, Photoshoping,
+                Media with different forms like: News, Filming, Photoshoping,
                 Virtual environments and more.
                  
                 Programs: Word, Excel, PowerPoint, Photoshop, Illustrator.
