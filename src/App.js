@@ -18,18 +18,18 @@ function App() {
             <ul>
               
               
-            <li><NavLink exact to="/MySite-React/">Hem</NavLink></li>
+            <li><NavLink exact to="/MySite-React/">Home</NavLink></li>
               <li>
-              <NavLink to="/MySite-React/aboutme">Om mig</NavLink>
+              <NavLink to="/MySite-React/aboutme">About Me</NavLink>
               </li>
               <li>
-              <NavLink to="/MySite-React/techexperience">Teknisk erfarenhet</NavLink>
+              <NavLink to="/MySite-React/techexperience">Technical Experience</NavLink>
               </li>
               <li>
-              <NavLink to="/MySite-React/overallexperience">All erfarenhet</NavLink>
+              <NavLink to="/MySite-React/overallexperience">All Experience</NavLink>
               </li>
               <li>
-              <NavLink to="/MySite-React/Education">Utbildning</NavLink>
+              <NavLink to="/MySite-React/Education">Education</NavLink>
               </li>
             </ul>
             

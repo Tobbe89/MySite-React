@@ -6,31 +6,31 @@ function OverallExperience() {
     return (
         <div className="main-content">
             <h2>Ericsson</h2>
-            <p>Slutmontör/Testoperatör</p>
+            <p>Final assembler/Testoperator</p>
 
             <h2>TriTech</h2>
-            <p>Hårdvaruprogrammering och cad</p>
+            <p>Hardware Programming and CAD-Design</p>
 
             <h2>Consulting</h2>
             <p>Support</p>
 
             <h2>Martin G Andersson</h2>
-            <p>Glaskonstrukör</p>
+            <p>Glass Designer</p>
 
             <h2>Sundsgården</h2>
-            <p>Servitör</p>
+            <p>Waiter</p>
 
-            <h2>Enskild Verksamhet</h2>
-            <p>Anläggare</p>
+            <h2>Individual company</h2>
+            <p>Foundation Builder</p>
 
             <h2>Peab anläggning</h2>
-            <p>Anläggare</p>
+            <p>Foundation Builder</p>
 
             <h2>Ahlsell</h2>
-            <p>Lagerarbetare</p>
+            <p>Warehouse work</p>
 
             <h2>Epiroc</h2>
-            <p>Materialhanterare</p>
+            <p>Warehouse work</p>
         </div>
     )
 }

@@ -7,12 +7,12 @@ function TechExperience() {
             <p> 
             <h1>Arbetserfarenhet</h1>
                 <h2 className="contentText">Blue Social</h2>
-            Under en liten tid jobbade jag med Blue Social i Riverside, Kalifornien där jag programmerade deras NFC-kort.
-                <h2 className="contentText">CAB Group</h2>
-            Under praktikperioden satt jag i supporten och såg till att CABs kunder fick den hjälp de behövde.
+            For a short time I was programming NFC-Cards for Blue Social in Riverside, CA.
+                
                 <h2 className="contentText">Ericsson</h2>
-            Slutmontör/Testoperatör.
-            Under tiden hos Ericsson jobbade jag med montering av komponenter och tillbehör till radiostationer med hjälp av el-scheman av olika varianter. Jag jobbade även som testoperatör; jag testade, förfelsökte felaktiga radiostationer och även reparerade
+            Final assembler/Testoperator.
+            For some time I was Assembling, Testing and Troubleshooting radio units for Ericsson.
+
             </p>
         </div>
     )

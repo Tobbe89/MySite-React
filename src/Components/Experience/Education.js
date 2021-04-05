@@ -5,21 +5,23 @@ function Education() {
     return (
         <div className="main-content">
             
-            <h2>Fullstackutvecklare .NET</h2>
-            <p>Programutvecklare, Webbutvecklare, Systemutvecklare och Applikationsutvecklare</p>
-            <h2>Mikrodatorteknik, Göteborgs Tekniska Institut.</h2>
-            
-            <h3>Programmering:</h3> <p>Grunder med språken C, C++ och Assembly.</p>
-            <h3>Ellära:</h3>
+            <h2>Fullstack Developer .NET</h2>
+            <p>Software- , Web- , System-  and Applikation-Developer</p>
+
+            <h2>Microcomputer technology, Göteborgs Tekniska Institut.</h2>     
+            <h3>Programmering:</h3> <p>C, C++ och Assembly Programming</p>
+            <h3>Electrical circuits:</h3>
             <p>
-            Läran av olika elektroniska komponenter till kretskort, deras funktioner.
+                Mathematical solutions of electrical circuits
             </p>
-            <h3>Kretskortsdesign:</h3>
-            <p>Med hjälp av CAD program tillverka fullständiga kretskort med komponenter. CAD programmens olika funktioner och verktyg.</p>
-            <h2>It-Media , John Bauergymnasiet.</h2>
+            <h3>Circuit board design:</h3>
+            <p>Designing PCB with help of CAD Software</p>
+            <h2>It-Media , John Bauer - High School.</h2>
             <p>
-            Utbildningens innehåll är grunder med allt med Media med hjälp av datorn som verktyg.
-            Program: Word, Excel, PowerPoint, Virtuella miljöer, Photoshop, Illustrator.
+                Education that contained Media with different forms like: News, Filming, Photoshoping,
+                Virtual environments and more.
+                 
+                Programs: Word, Excel, PowerPoint, Photoshop, Illustrator.
             </p>
 
             
