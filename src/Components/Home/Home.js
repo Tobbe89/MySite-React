@@ -6,7 +6,7 @@ import { withRouter } from "react-router-dom";
 
 function Home() {
     return (
-        <div>
+        <div className="my-pic">
             <img className="img1" src="./images/ItsMe.JPG" alt="" />
         </div>
     )

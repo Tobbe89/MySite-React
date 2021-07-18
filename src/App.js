@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Route, Switch, Link, NavLink } from "react-router-dom";
-import './App.css';
+import React, { useState } from 'react'
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Home from "./Components/Home/Home";
 import OverallExperience from "./Components/Experience/OverallExperience";
 import TechExperience from "./Components/Experience/TechExperience";
 import Education from "./Components/Experience/Education";
 import Footer from "./Components/Home/Footer";
+import { SideBar } from "./Components/NavBar/SideBar";
+
 
 function App() {
   return (
@@ -13,30 +15,10 @@ function App() {
       <header><h1>Tobias Persson</h1></header>
       
       <Router>
-        <div className="Navbar">
-          
-            <ul>
-              
-              
-            <li><NavLink exact to="/MySite-React/">Home</NavLink></li>
-              <li>
-              <NavLink to="/MySite-React/aboutme">About Me</NavLink>
-              </li>
-              <li>
-              <NavLink to="/MySite-React/techexperience">Technical Experience</NavLink>
-              </li>
-              <li>
-              <NavLink to="/MySite-React/overallexperience">All Experience</NavLink>
-              </li>
-              <li>
-              <NavLink to="/MySite-React/Education">Education</NavLink>
-              </li>
-            </ul>
-            
-        </div>
+        <SideBar></SideBar>
         
         <Switch>
-          <div className="Content">
+          
             <Route exact path="/MySite-React/">
               <Home></Home>
             </Route>
@@ -48,13 +30,14 @@ function App() {
             </Route>
             <Route path="/MySite-React/overallexperience">
               <OverallExperience></OverallExperience>
+           
             </Route>
             <Route path="/MySite-React/Education">
               <Education></Education>
             </Route>
             
 
-          </div>
+          
         </Switch>
 
       </Router>

@@ -21,8 +21,8 @@ function Education() {
             <p>Designing PCB with help of CAD Software</p>
             <h2>It-Media , John Bauer - High School.</h2>
             <p>
-                Media with different forms like: News, Filming, Photoshoping,
-                Virtual environments and more.
+                Managing media content such as: News, Filming, Photoshoping,
+                Virtual environments etc.
                  
                 Programs: Word, Excel, PowerPoint, Photoshop, Illustrator.
             </p>
