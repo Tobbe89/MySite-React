@@ -10,8 +10,8 @@
 
 .navbar-list-item a{
     text-decoration: none;
-    color: black;
-    
+    color: white;
+    display: block;
 }   
 
 .Sidebar-content{
@@ -37,9 +37,7 @@
     
 
 }
-.navbar-list-item a{
-    color: white;
-}
+
 
 
 

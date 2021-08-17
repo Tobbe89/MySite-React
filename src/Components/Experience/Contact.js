@@ -1,0 +1,23 @@
+import React from 'react'
+import { withRouter } from "react-router-dom";
+
+function Contact() {
+
+
+    return (
+        <div className="main-content">
+
+            <h2>Contact information</h2>
+            <br></br>
+            <h3>Phone Number:</h3>
+            <p>+46708952141</p>
+            <h3>Email:</h3>
+            <div className="mail"><a href="mailto=Tobiasp89tp@gmail.com">Tobiasp89tp@gmail.com</a></div> 
+            <h3>Contry:</h3>
+            <p>Sweden</p>
+
+        </div>
+    )
+}
+
+export default withRouter(Contact)

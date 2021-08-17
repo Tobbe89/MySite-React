@@ -2,7 +2,7 @@ import { React } from "react";
 
 export const SidebarData=[
     {
-        title: 'home',
+        title: 'Home',
         path: '/MySite-React/',
         className: 'navbar-list-item'
     },
@@ -19,6 +19,11 @@ export const SidebarData=[
     {
         title: 'TechExperience',
         path: '/MySite-React/techexperience',
+        className: 'navbar-list-item'
+    },
+    {
+        title: 'Contact',
+        path: '/MySite-React/contact',
         className: 'navbar-list-item'
     }
 ]
