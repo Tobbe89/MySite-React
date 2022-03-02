@@ -13,7 +13,7 @@ function Contact() {
             <p>+46708952141</p>
             <h3>Email:</h3>
             <div className="mail"><a href="mailto=Tobiasp89tp@gmail.com">Tobiasp89tp@gmail.com</a></div> 
-            <h3>Contry:</h3>
+            <h3>Country:</h3>
             <p>Sweden</p>
 
         </div>
