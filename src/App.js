@@ -8,13 +8,16 @@ import Education from "./Components/Experience/Education";
 import Footer from "./Components/Home/Footer";
 import { SideBar } from "./Components/NavBar/SideBar";
 import Contact from "./Components/Experience/Contact";
+import Header from "./Components/Header";
 
 
 function App() {
   return (
     <div className="main">
-      <header><h1>Tobias Persson</h1></header>
-      <Router>
+      <Header></Header>
+      
+
+      {/* <Router>
         <SideBar></SideBar>
         <Switch>    
             <Route exact path="/MySite-React/">
@@ -36,7 +39,7 @@ function App() {
                <Contact></Contact>
             </Route>  
         </Switch>
-      </Router> 
+      </Router>  */}
     </div>
   );
 }
