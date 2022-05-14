@@ -1,3 +1,13 @@
+:root{
+  --color-bg: O#1f1f38;
+  --color-bg-variant: O#2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: Orgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: Orgba(255, 255, 255, 0.6);
+  --container-width-lg: 75%;
+}
+
 body{
   margin: 0px;
   background: rgb(255, 255, 255);
