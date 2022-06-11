@@ -1,5 +1,11 @@
-import { BrowserRouter as Router, Route, Switch, Link, NavLink } from "react-router-dom";
-import React, { useState } from 'react'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  NavLink,
+} from "react-router-dom";
+import React, { useState } from "react";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Home from "./Components/Home/Home";
 import OverallExperience from "./Components/Experience/OverallExperience";
@@ -9,13 +15,17 @@ import Footer from "./Components/Home/Footer";
 import { SideBar } from "./Components/NavBar/SideBar";
 import Contact from "./Components/Experience/Contact";
 import Header from "./Components/Header";
-
+import Navigation from "./Components/NavBar2/Nav";
 
 function App() {
   return (
     <div className="main">
       <Header></Header>
-      
+      <Navigation></Navigation>
+      <Education></Education>
+      <TechExperience></TechExperience>
+      <OverallExperience></OverallExperience>
+      <Contact></Contact>
 
       {/* <Router>
         <SideBar></SideBar>

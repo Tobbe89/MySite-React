@@ -3,8 +3,9 @@ import { withRouter } from "react-router-dom";
 
 function OverallExperience() {
   return (
-    <div className="main-content">
-      <h2>Ericsson</h2>
+    <section id="overallexp">
+      OverallExperience
+      {/* <h2>Ericsson</h2>
       <p>Final assembler/Testoperator</p>
 
       <h2>TriTech</h2>
@@ -29,9 +30,9 @@ function OverallExperience() {
       <p>Warehouse work</p>
 
       <h2>Epiroc</h2>
-      <p>Warehouse work</p>
-    </div>
+      <p>Warehouse work</p> */}
+    </section>
   );
 }
 
-export default withRouter(OverallExperience);
+export default OverallExperience;
