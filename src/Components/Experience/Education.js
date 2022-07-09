@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { withRouter } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Education() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section id="education">
-      <div className="text-container">
+      <div data-aos="fade-left" className="text-container">
         <h2>Fullstack Developer .NET</h2>
         <p>Software- , Web- , System- and Application-Developer</p>
         {/* <p>Visual Studio: ASP.NET, MVC, WPF, Unit Test</p>

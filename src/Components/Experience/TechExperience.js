@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { withRouter } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function TechExperience() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section id="techexp">
-      <div className="text-container">
+      <div data-aos="fade-left" className="text-container">
         <h2 className="contentText">Nexer</h2>
         <p>
           While studying I had my practice-period at Nexer as a
