@@ -17,10 +17,10 @@ function Navigation() {
           <IcoMoon.ImOffice />
           <span className="hover-icon3">Tech Experience</span>
         </a>
-        <a className="nav-icon4" href="#overallexp">
+        {/* <a className="nav-icon4" href="#overallexp">
           <IcoMoon.ImBriefcase />
           <span className="hover-icon4">Other Experience</span>
-        </a>
+        </a> */}
         <a className="nav-icon5" href="#contact">
           <IcoMoon.ImMail3 />
           <span className="hover-icon5">Contect me!</span>

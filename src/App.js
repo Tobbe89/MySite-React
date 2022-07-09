@@ -24,7 +24,7 @@ function App() {
       <Navigation></Navigation>
       <Education></Education>
       <TechExperience></TechExperience>
-      <OverallExperience></OverallExperience>
+      {/* <OverallExperience></OverallExperience> */}
       <Contact></Contact>
 
       {/* <Router>

@@ -4,8 +4,8 @@ function Header() {
   return (
     <section id="header">
       <header>
-        <h5>Hello!!</h5>
         <h1>Tobias Persson</h1>
+        <h2>Fullstack developer .NET</h2>
       </header>
     </section>
   );
