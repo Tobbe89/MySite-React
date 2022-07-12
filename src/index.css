@@ -19,6 +19,12 @@
   --container-width-ms: 90%;
 }
 
+html, body{
+  
+}
+
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -80,7 +86,7 @@ nav {
   bottom: 20px;
   display: flex;
   justify-content: center;
-  width: 100%;
+  
 }
 
 nav a {
@@ -153,7 +159,6 @@ section > h2 {
 
 section > h2,
 section > h5 {
-  text-align: center;
   color: var(--color-light);
 }
 
@@ -227,7 +232,7 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  
   margin-bottom: 0px;
   font-size: 18px;
 }
@@ -279,13 +284,24 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-  .main {
+
+  .text-container {
+    width: 100%;
+  }
+  .picture-container {
+    width: 0%;
+  }
+
+
+  /* .main {
     display: grid;
     grid-template-columns: 10px auto 10px;
     grid-template-rows: auto auto auto;
-  }
+  } */
 
-  .Navbar {
+ 
+
+  /* .Navbar {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 100%;
@@ -342,5 +358,7 @@ p {
     width: 80%;
     border-right: 4px solid black;
     border-top: 4px solid black;
-  }
+  } */
+
+ 
 }
