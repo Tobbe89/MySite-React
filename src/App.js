@@ -19,7 +19,7 @@ import Navigation from "./Components/NavBar2/Nav";
 
 function App() {
   return (
-    <div className="main">
+    <div >
       <Header></Header>
       <Navigation></Navigation>
       <Education></Education>

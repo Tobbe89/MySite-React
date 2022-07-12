@@ -20,7 +20,8 @@
 }
 
 html, body{
-  
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 
@@ -51,6 +52,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
+ 
   /* background-color: var(--color-bg-variant);
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
     0 6px 20px 0 rgba(255, 255, 255, 0.19); */
@@ -86,7 +88,7 @@ nav {
   bottom: 20px;
   display: flex;
   justify-content: center;
-  
+  min-width: 100%;
 }
 
 nav a {
@@ -111,7 +113,7 @@ h5 {
   /* display: grid;
   grid-template-columns: 25px auto 25px;
   grid-template-rows: 25px 100px auto 25px; */
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .hover-icon1,
@@ -175,7 +177,8 @@ section > h5 {
 .Navbar {
   grid-column: 2/3;
   grid-row: 3/4;
-  width: 200px;
+  width: 200px
+
 }
 
 .Navbar ul {
@@ -232,7 +235,6 @@ h1 {
 }
 
 h2 {
-  
   margin-bottom: 0px;
   font-size: 18px;
 }
