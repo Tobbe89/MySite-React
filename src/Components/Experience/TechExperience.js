@@ -13,8 +13,7 @@ function TechExperience() {
       <div data-aos="fade-left" className="text-container">
         <h2 className="contentText">Nexer</h2>
         <p>
-          While studying I had my practice-period at Nexer as a
-          Fullstack-developer
+          I had my intership and now my fulltime job as developer at Nexer, Örebro Sweden.
         </p>
         <h2 className="contentText">Blue Social</h2>
         <p>
@@ -27,7 +26,14 @@ function TechExperience() {
           and Troubleshooting radio units for Ericsson.
         </p>
       </div>
-      <div className="picture-container"></div>
+      <div className="picture-container">
+        {/* <div data-aos="fade-left" className="nexer-logo">
+          <svg width="112" height="89" viewBox="0 0 112 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32.5 44.5L1 1H19L50.5 44.5L19 88H1L32.5 44.5Z" fill="black" stroke="white"/>
+          <path d="M61.5 44.5L31 1H49L70.5 31.5L93 1H111L79.5 44.5L111 88H93L71 57L49 88H31L61.5 44.5Z" fill="black" stroke="white"/>
+          </svg>
+        </div> */}
+      </div>
     </section>
   );
 }
